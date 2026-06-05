@@ -24,7 +24,7 @@ jobs:
         pip install requests
 
     - name: Execute Fetcher Script
-      run: python fetch_daily.py
+      run: python fetch-daily.py
 
     - name: Commit and Push Document
       run: |

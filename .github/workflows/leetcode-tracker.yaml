@@ -26,12 +26,12 @@ jobs:
     - name: Execute Fetcher Script
       run: python fetch-daily.py
 
-    - name: Commit and Push Document
+    -  name: Commit and Push Document
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "samyakzer0"
+        git config --global user.email "samyak.sage@gmail.com"
         
         git add daily_challenges/
         
-        # Ensures the workflow doesn't crash if it runs twice on the same problem 
+        # Ensures the workflow doesn't crash if it runs twice on the same day
         git diff --quiet && git diff --staged --quiet || (git commit -m "docs: archiver fetched daily LeetCode challenge" && git push)

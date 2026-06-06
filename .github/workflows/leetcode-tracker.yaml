@@ -26,7 +26,7 @@ jobs:
     - name: Execute Fetcher Script
       run: python fetch-daily.py
 
-    -  name: Commit and Push Document
+    - name: Commit and Push Document
       run: |
         git config --global user.name "samyakzer0"
         git config --global user.email "samyak.sage@gmail.com"

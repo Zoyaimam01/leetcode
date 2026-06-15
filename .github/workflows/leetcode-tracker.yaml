@@ -28,8 +28,8 @@ jobs:
 
     - name: Commit and Push Document
       run: |
-        git config --global user.name "samyakzer0"
-        git config --global user.email "samyak.sage@gmail.com"
+        git config --global user.name "Zoyaimam01"
+        git config --global user.email "zoyaimam444@gmail.com"
         
         git add daily_challenges/
         

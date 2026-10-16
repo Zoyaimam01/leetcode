@@ -1,0 +1,66 @@
+# [3139. Subarrays Distinct Element Sum of Squares II](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/)
+
+**Date:** 2026-10-16  
+**Difficulty:** Hard  
+**Tags:** `Array, Hash Table, Binary Indexed Tree, Segment Tree`
+
+---
+
+## Problem Description
+
+You are given a 0-indexed integer array nums.
+
+The distinct count of a subarray of nums is defined as:
+
+
+	Let nums[i..j] be a subarray of nums consisting of all the indices from i to j such that 0 &lt;= i &lt;= j &lt; nums.length. Then the number of distinct values in nums[i..j] is called the distinct count of nums[i..j].
+
+
+Return the sum of the squares of distinct counts of all subarrays of nums.
+
+Since the answer may be very large, return it modulo 109 + 7.
+
+A subarray is a contiguous non-empty sequence of elements within an array.
+
+&nbsp;
+Example 1:
+
+
+Input: nums = [1,2,1]
+Output: 15
+Explanation: Six possible subarrays are:
+[1]: 1 distinct value
+[2]: 1 distinct value
+[1]: 1 distinct value
+[1,2]: 2 distinct values
+[2,1]: 2 distinct values
+[1,2,1]: 2 distinct values
+The sum of the squares of the distinct counts in all subarrays is equal to 12 + 12 + 12 + 22 + 22 + 22 = 15.
+
+
+Example 2:
+
+
+Input: nums = [2,2]
+Output: 3
+Explanation: Three possible subarrays are:
+[2]: 1 distinct value
+[2]: 1 distinct value
+[2,2]: 1 distinct value
+The sum of the squares of the distinct counts in all subarrays is equal to 12 + 12 + 12 = 3.
+
+&nbsp;
+Constraints:
+
+
+	1 &lt;= nums.length &lt;= 105
+	1 &lt;= nums[i] &lt;= 105
+
+
+
+---
+
+## My Notes & Solution
+```cpp
+// Write your C++ solution here
+```
